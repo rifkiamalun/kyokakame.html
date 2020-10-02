@@ -1,23 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');       /* Importing google fonts */ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Arimo', sans-serif;             /* margins paddinng  box and using font as arimo to '*' class */
     
 
 }
 body {
-    background-color: linear-gradient( #EE7752, #E73C7E, #23A6D5,#23D5AB);
+    background-color: linear-gradient( #EE7752, #E73C7E, #23A6D5,#23D5AB);     /* adding background-color */
 }
 
 
 
 html {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;                 /* fixing font size */
 }
 
 section {
@@ -50,7 +50,7 @@ h1 {
     text-align: center;
 }
 h1:hover {
-    color: dodgerblue;
+    color: dodgerblue;               /* hovering color for h1 tag */
 }
 
 .textme p {
